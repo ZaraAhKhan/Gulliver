@@ -1,5 +1,18 @@
-
-.text{
-  margin-top: 200%;
+/* .bg-image{
+  background-image: url('rainbow.jpg'); 
+  background-size: cover; 
+  height: 1000px; 
+  padding-top:80px;
+} */
+.title{
+  margin-top:10%;
+  margin-left:5%;
 }
+.description{
+  margin-left:5%;
+  max-width: 40%;
+  font-size:large;
+}
+
+
   
