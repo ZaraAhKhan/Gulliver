@@ -1,11 +1,10 @@
 body{
   background-color: antiquewhite;
-}
-.top-section{
-  width:100%;
+  width: 100%;
+  margin: 0 auto; 
 }
 .text{
-  margin-top:5%;
+  margin-top:10%;
   margin-left:1%;
 }
 .title{
@@ -18,9 +17,19 @@ body{
 .subtitle{
   font-size:30px;
 }
-.app-store {
-  max-width:40%;
+
+.buttons{
+  display:flex;
 }
+
+.play-store{
+  margin-left: 5%;
+}
+
+.image{
+  margin-left:-10vw;
+}
+
 .container{
   box-shadow: 0 15px 30px 1px rgba(128, 128, 128, 0.31);
   background: rgba(255, 255, 255, 0.90);
@@ -28,13 +37,88 @@ body{
   border-radius: 40px;
   overflow: hidden;
   margin: 5em auto;
-  height: 500px;
-  width: 400px; 
+  height: 50vh;
+  width: 50vw; 
 }
 
 .cards, .top-section{
   display:flex;
 }
+
+.navbar{
+  display: flex;
+ align-items: center;
+ justify-content: space-between;
+ padding: 20px;
+ background-color: goldenrod;
+ color: #fff;
+}
+.nav-links a {
+  color: #fff;
+ }
+ /* LOGO */
+ .logo {
+  font-size: 32px;
+ }
+ /* NAVBAR MENU */
+ .menu {
+  display: flex;
+  gap: 1em;
+  font-size: 18px;
+ }
+ .menu li:hover {
+  background-color: gold;
+  border-radius: 5px;
+  transition: 0.3s ease;
+ }
+ .menu li {
+  padding: 5px 14px;
+ }
+ /*RESPONSIVE NAVBAR MENU STARTS*/
+/* CHECKBOX HACK */
+input[type=checkbox]{
+  display: none;
+ } 
+ /*HAMBURGER MENU*/
+ .hamburger {
+  display: none;
+  font-size: 24px;
+  user-select: none;
+ }
+ /* APPLYING MEDIA QUERIES */
+ @media (max-width: 768px) {
+ .menu { 
+  display:none;
+  position: absolute;
+  background-color:goldenrod;
+  right: 0;
+  left: 0;
+  text-align: center;
+  padding: 16px 0;
+ }
+ .menu li:hover {
+  display: inline-block;
+  background-color:gold;
+  transition: 0.3s ease;
+ }
+ .menu li + li {
+  margin-top: 12px;
+ }
+ input[type=checkbox]:checked ~ .menu{
+  display: block;
+ }
+ .hamburger {
+  display: block;
+ }
+ .dropdown {
+  left: 50%;
+  top: 30px;
+  transform: translateX(35%);
+ }
+ .dropdown li:hover {
+  background-color: #4c9e9e;
+ }
+ }
 
 
 
