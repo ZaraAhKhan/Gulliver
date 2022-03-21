@@ -179,3 +179,29 @@ blockquote:nth-of-type(even) footer:after {
     padding: 1em 1em 1em 20%;
   }
 }
+
+.cards {
+	width: 85%;
+	margin: 0 auto;
+	justify-content: center;
+	align-items: center;
+}
+
+
+
+.card-details {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+	height: 100%;
+}
+
+.card-details h1 {
+	font-size: 2rem;
+}
+
+.card-img {
+	height: 250px;
+	width: fit-content;
+}
