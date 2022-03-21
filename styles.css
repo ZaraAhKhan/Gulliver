@@ -1,26 +1,25 @@
-/* .bg-image{
-  background-image: url('rainbow.jpg'); 
-  background-size: cover; 
-  height: 1000px; 
-  padding-top:80px;
-} */
+body{
+  background-color: antiquewhite;
+}
+.top-section{
+  width:100%;
+}
 .text{
-  margin-top:10%;
-  margin-left:5%;
+  margin-top:5%;
+  margin-left:1%;
 }
 .title{
-  font-size:70px;
-  max-width:50%;
+  font-size:3vw;
+  max-width:100%;
 }
 .description{
-  max-width: 50%;
   font-size:25px;
 }
 .subtitle{
-  font-size:50px;
+  font-size:30px;
 }
 .app-store {
-  max-width:310px;
+  max-width:40%;
 }
 .container{
   box-shadow: 0 15px 30px 1px rgba(128, 128, 128, 0.31);
@@ -29,10 +28,15 @@
   border-radius: 40px;
   overflow: hidden;
   margin: 5em auto;
-  height: 350px;
-  width: 700px;
-  
+  height: 500px;
+  width: 400px; 
 }
+
+.cards, .top-section{
+  display:flex;
+}
+
+
 
 
   
