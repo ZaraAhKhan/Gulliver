@@ -2,6 +2,7 @@ body {
   background-color: antiquewhite;
   width: 100%;
   margin: 0 auto;
+  font-family:"droid serif";
 }
 .text {
   margin-top: 10%;
@@ -205,3 +206,9 @@ blockquote:nth-of-type(even) footer:after {
 	height: 250px;
 	width: fit-content;
 }
+
+@import url(https://fonts.googleapis.com/css?family=PT+Sans:400,400italic);
+
+@import url(https://fonts.googleapis.com/css?family=Droid+Serif);
+
+
