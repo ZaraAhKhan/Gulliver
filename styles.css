@@ -1,42 +1,67 @@
-body{
-  background-color: antiquewhite;
+body {
+	background-color: antiquewhite;
 }
-.top-section{
-  width:100%;
+.top-section {
+	width: 100%;
 }
-.text{
-  margin-top:5%;
-  margin-left:1%;
+.text {
+	margin-top: 5%;
+	margin-left: 1%;
 }
-.title{
-  font-size:3vw;
-  max-width:100%;
+.title {
+	font-size: 3vw;
+	max-width: 100%;
 }
-.description{
-  font-size:25px;
+.description {
+	font-size: 25px;
 }
-.subtitle{
-  font-size:30px;
+.subtitle {
+	font-size: 30px;
 }
 .app-store {
-  max-width:40%;
-}
-.container{
-  box-shadow: 0 15px 30px 1px rgba(128, 128, 128, 0.31);
-  background: rgba(255, 255, 255, 0.90);
-  text-align: center;
-  border-radius: 40px;
-  overflow: hidden;
-  margin: 5em auto;
-  height: 500px;
-  width: 400px; 
+	max-width: 40%;
 }
 
-.cards, .top-section{
-  display:flex;
+.cards,
+.top-section {
+	display: flex;
 }
 
+.cards {
+	width: 85%;
+	margin: 0 auto;
+	justify-content: center;
+	align-items: center;
+}
 
+.container {
+	box-shadow: 0 15px 30px 1px rgba(128, 128, 128, 0.31);
+	background: rgba(255, 255, 255, 0.9);
+	text-align: center;
+	border-radius: 40px;
+	overflow: hidden;
+	margin: 5em auto;
+	height: 500px;
+	width: 400px;
 
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
 
-  
+.card-details {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+	height: 100%;
+}
+
+.card-details h1 {
+	font-size: 2rem;
+}
+
+.card-img {
+	height: 250px;
+	width: fit-content;
+}
