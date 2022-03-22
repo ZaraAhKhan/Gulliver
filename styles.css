@@ -48,29 +48,31 @@ input[type=text],input[type=email] {
   border:0;
   box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
   width:600px;
-  max-width:80%;
+  max-width:50%;
   font-family:inherit;
-  font-size: inherit;
+  font-size: 3vmin;
 }
 
 form{
-  margin-top:3%;
+  margin-top:2%;
 }
 
 .submit{
-  width: 165px;
+  width: 185px;
   height: 40px;
   border: none;
   outline: none;
   background: brown;
   color: #fff;
-  font-size: 22px;
+  font-size: 3vmin;
   border-radius: 40px;
   text-align: center;
   box-shadow: 0 6px 20px -5px rgba(0,0,0,0.4);
   position: relative;
   overflow: hidden;
   cursor: pointer;
+  margin-top:2%;
+  max-width:50%;
 }
 
 
@@ -85,10 +87,6 @@ form{
   width: 50vw;
 }
 
-.fields{
-
-}
-
 @media only screen and (min-width: 992px) {
   .cards,
   .top-section {
@@ -100,6 +98,7 @@ form{
     display: block;
   }
 }
+
 
 @media only screen and (max-width: 991px) {
   img {
@@ -113,6 +112,7 @@ form{
 		height: auto;
   }
 }
+
 
 .navbar {
   display: flex;
@@ -196,15 +196,14 @@ blockquote:not(:first-of-type) {
 }
 blockquote p {
   color: #555;
-  font-size: 12pt;
-  line-height: 1.4;
+  font-size: 3vmin;
   font-family: 'PT Serif', Cambria, 'Hoefler Text', Utopia, 'Liberation Serif', 'Nimbus Roman No9 L Regular', Times, 'Times New Roman', serif;
 }
 blockquote footer {
   margin-top: .5em;
   padding: 0;
   color: #777;
-  font-size: 12pt;
+  font-size: 3vmin;
   text-align: left;
   font-style: italic;
 }
