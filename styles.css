@@ -5,7 +5,7 @@
     font-family: 'Poppins', sans-serif;
 }
 body {
-  background-color: antiquewhite;
+  background-color: #EEE2DC;
   width: 100%;
   margin: 0 auto;
   font-family:"droid serif";
@@ -55,6 +55,7 @@ input[type=text],input[type=email] {
   max-width:50%;
   font-family:inherit;
   font-size: 3vmin;
+  border-radius:50px;
 }
 
 form{
@@ -123,13 +124,6 @@ form{
 		height: auto;
   }
 }
-.bottom{
-  display: block;
-  width: 50%;
-  margin-left: auto;
-  margin-right: auto;
-  
-}
 
 .navbar {
   display: flex;
@@ -142,6 +136,7 @@ form{
   position: -webkit-sticky;
 	position: sticky;
 	top: 0;
+  z-index:1000;
 }
 .nav-links a {
   color: #fff;
@@ -216,15 +211,16 @@ blockquote:not(:first-of-type) {
   margin-top: .5em;
 }
 blockquote p {
-  color: #555;
-  font-size: 3vmin;
+  color: black;
+  font-size:  3vmin;
+  line-height: 1.4;
   font-family: 'PT Serif', Cambria, 'Hoefler Text', Utopia, 'Liberation Serif', 'Nimbus Roman No9 L Regular', Times, 'Times New Roman', serif;
 }
 blockquote footer {
   margin-top: .5em;
   padding: 0;
   color: #777;
-  font-size: 3vmin;
+  font-size: 2vmin;
   text-align: left;
   font-style: italic;
 }
@@ -256,7 +252,6 @@ blockquote:nth-of-type(even) footer:after {
     padding: 1em 1em 1em 20%;
   }
 }
-
 .cards {
 	width: 85%;
 	margin: 0 auto;
