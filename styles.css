@@ -1,3 +1,9 @@
+*, *:before, *:after {
+  margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
 body {
   background-color: antiquewhite;
   width: 100%;
@@ -9,23 +15,62 @@ body {
   margin-left: 1%;
 }
 .title {
-  font-size: 3vw;
+  font-size:6vmin;
   max-width: 100%;
 }
 .description {
-  font-size: 1.2vw;
+  font-size: 3vmin;
   max-width: 60%;
+  margin-top: 3%;
 }
 .subtitle {
-  font-size: 2vw;
+  font-size: 5vmin;
+  margin-top:1%;
 }
 
 .buttons {
   display: flex;
+  
 }
 
 .play-store {
   margin-left: 5%;
+  max-width: 100%;
+}
+.app-store {
+  max-width: 100%;
+}
+
+input[type=text],input[type=email] {
+  /* input elements with type="text" attribute */
+  padding:10px;
+  margin:10px 0;
+  border:0;
+  box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+  width:600px;
+  max-width:80%;
+  font-family:inherit;
+  font-size: inherit;
+}
+
+form{
+  margin-top:3%;
+}
+
+.submit{
+  width: 165px;
+  height: 40px;
+  border: none;
+  outline: none;
+  background: brown;
+  color: #fff;
+  font-size: 22px;
+  border-radius: 40px;
+  text-align: center;
+  box-shadow: 0 6px 20px -5px rgba(0,0,0,0.4);
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
 }
 
 
@@ -40,6 +85,10 @@ body {
   width: 50vw;
 }
 
+.fields{
+
+}
+
 @media only screen and (min-width: 992px) {
   .cards,
   .top-section {
@@ -47,8 +96,21 @@ body {
   }
   .image-section img{
     margin-left: 15px;
-  margin-right: auto;
-  display: block;
+    margin-right: auto;
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  img {
+    width: 100%;
+    margin-top: -12%;
+  }
+  .container{
+    max-width: 100%;
+		min-height: 100%;
+		width: auto;
+		height: auto;
   }
 }
 
@@ -59,6 +121,7 @@ body {
   padding: 20px;
   background-color: brown;
   color: #fff;
+  max-width:100%;
 }
 .nav-links a {
   color: #fff;
@@ -74,7 +137,7 @@ body {
   font-size: 18px;
 }
 .menu li:hover {
-  background-color: gold;
+  background-color: darkgreen;
   border-radius: 5px;
   transition: 0.3s ease;
 }
@@ -97,7 +160,7 @@ input[type="checkbox"] {
   .menu {
     display: none;
     position: absolute;
-    background-color: goldenrod;
+    background-color: brown;
     right: 0;
     left: 0;
     text-align: center;
@@ -105,7 +168,7 @@ input[type="checkbox"] {
   }
   .menu li:hover {
     display: inline-block;
-    background-color: gold;
+    background-color: darkgreen;
     transition: 0.3s ease;
   }
   .menu li + li {
@@ -117,14 +180,7 @@ input[type="checkbox"] {
   .hamburger {
     display: block;
   }
-  .dropdown {
-    left: 50%;
-    top: 30px;
-    transform: translateX(35%);
-  }
-  .dropdown li:hover {
-    background-color: #4c9e9e;
-  }
+  
 }
 
 blockquote {
@@ -224,4 +280,4 @@ blockquote:nth-of-type(even) footer:after {
 
 @import url(https://fonts.googleapis.com/css?family=Droid+Serif);
 
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap')
