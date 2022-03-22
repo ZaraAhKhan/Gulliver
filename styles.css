@@ -36,6 +36,7 @@ h3{
 
 .buttons {
 	display: flex;
+  justify-content: center;
 }
 
 .play-store {
