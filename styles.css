@@ -23,9 +23,13 @@ body {
   max-width: 60%;
   margin-top: 3%;
 }
-.subtitle {
+.subtitle , h3 {
   font-size: 5vmin;
   margin-top:1%;
+}
+
+h3{
+  text-align: center;
 }
 
 .buttons {
@@ -122,6 +126,9 @@ form{
   background-color: brown;
   color: #fff;
   max-width:100%;
+  position: -webkit-sticky;
+	position: sticky;
+	top: 0;
 }
 .nav-links a {
   color: #fff;
@@ -274,6 +281,7 @@ blockquote:nth-of-type(even) footer:after {
 	height: 250px;
 	width: fit-content;
 }
+
 
 @import url(https://fonts.googleapis.com/css?family=PT+Sans:400,400italic);
 
